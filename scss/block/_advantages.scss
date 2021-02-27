@@ -1,0 +1,43 @@
+.advantages {
+   background-color: #f6f6f6;
+   &__wrapper {
+      height: 470px;
+      padding-top: 70px;
+      padding-bottom: 78px;
+   }
+
+   &__title {
+      font-size: 30px;
+      font-family: 'Museo Sans Cyrl 900', sans-serif;
+      text-align: center;
+      padding-bottom: 55px;
+   }
+
+   &__items {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   &__item {
+      text-align: center;
+      max-width: 239px;
+   }
+
+   &__icon {
+   }
+
+   &__subtitle {
+      font-family: 'Museo Sans Cyrl 900', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      padding-top: 16px;
+      padding-bottom: 16px;
+   }
+
+   &__text {
+      line-height: 16px;
+      font-family: 'Museo Sans Cyrl 900', sans-serif;
+      font-size: 14px;
+   }
+}
