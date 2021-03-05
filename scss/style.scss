@@ -1,4 +1,14 @@
-body{
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 30px;
+@import "fonts";
+@import "block/promo";
+@import "block/buttons";
+@import "block/advantages";
+@import "block/consultation";
+@import "block/forms";
+@import "block/slider";
+@import "block/catalog";
+
+
+.container{
+   max-width: 950px;
+   margin: 0 auto;
 }

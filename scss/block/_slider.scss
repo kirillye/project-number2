@@ -1,0 +1,26 @@
+.slider {
+   &__wrapper {
+      width: 750px;
+      margin: 0 auto;
+      padding: 81px 0px;
+   }
+   &__inner{
+      position: relative;
+      .slick-prev{
+         position: absolute;
+         top: 50%;
+         transform: translateY(-50%);
+         left: -66px;
+         border: none;
+         background: #fff;
+      }
+      .slick-next{
+         position: absolute;
+         top: 50%;
+         transform: translateY(-50%);
+         right: -66px;
+         border: none;
+         background: #fff;
+         }
+   }
+ }
