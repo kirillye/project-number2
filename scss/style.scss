@@ -1,12 +1,14 @@
 @import "fonts";
-@import "block/promo";
-@import "block/buttons";
-@import "block/advantages";
-@import "block/consultation";
-@import "block/forms";
-@import "block/slider";
-@import "block/catalog";
-
+@import "blocks/promo";
+@import "blocks/buttons";
+@import "blocks/advantages";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/slider";
+@import "blocks/catalog";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/modal";
 
 .container{
    max-width: 950px;

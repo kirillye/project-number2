@@ -1,0 +1,55 @@
+.reviews {
+
+   &__title {
+      color:#0d0d0d;
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Museo Sans', sans-serif;
+      font-weight: bold;
+      padding-top: 130px;
+      padding-bottom: 69px;
+   }
+
+   &__wrapper {
+
+   }
+
+   &__item {
+      margin-bottom: 100px;
+      align-items: center;
+      display: block;
+      display: flex;
+      flex-direction: row;
+   }
+
+   &__img {
+      margin-right: 62px;
+   }
+
+   &__text {  
+   }
+
+   &__name {
+      font-size: 18px;
+      font-family: 'Museo Sans', sans-serif;
+      font-weight: bold;
+
+   }
+
+   &__number {
+      color: #646464;
+      font-size: 14px;
+      padding-bottom: 18px;
+   }
+
+   &__comment {
+      font-family: 'Museo Sans', sans-serif;
+      span{
+         margin: 15px 0px;
+         display: block;
+      }
+
+   }
+}
+.container {
+}

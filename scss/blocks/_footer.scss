@@ -1,0 +1,69 @@
+.footer {
+
+   // .footer__wrapper
+
+   &__wrapper {
+      position: relative;
+
+   }
+
+   // .footer__box
+
+   &__box {
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 9999;
+      position: absolute;
+      width: 460px;
+      height: 270px;
+      background-color: #c70101;
+      padding: 50px 68px 60px 69px;
+   }
+
+   // .footer__adress
+
+   &__adress {
+      margin-bottom: 36px;
+      font-size: 16px;
+      text-align: center;
+      font-family: 'Museo Sans Cyrl 300', sans-serif;
+      color: #fff;
+   }
+
+   // .footer__number
+
+   &__number {
+      text-align: center;
+      margin-bottom: 36px;
+   }
+
+   // .footer__link
+
+   &__link {
+      text-decoration: none;
+      font-size: 16px;
+      text-align: center;
+      font-family: 'Museo Sans Cyrl 300', sans-serif;
+      color: #fff;
+   }
+
+   // .footer__img
+
+   &__img {
+      margin: 0 auto;
+      display: flex;
+      width: 210px;
+      justify-content: space-between;
+      text-align: center;
+      img{
+         display: block;
+      }
+   }
+
+   // .footer__map
+
+   &__map {
+      z-index: 1;
+   }
+}
